@@ -121,7 +121,9 @@ Use [web assembly studio](https://wasm-studio.surge.sh/)
 )
 ```
 
-2. The following code compare to jascript
+2. Compare the following code in javascript & wasm
+
+- javascript
 
 ```js
 function example(n) {
