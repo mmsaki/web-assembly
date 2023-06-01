@@ -32,7 +32,7 @@ convert hex to decimal
 function hexToDecimal(r) {
 	return r.toString(10);
 }
-// returns '743'
+// hexToDecimal(0x2E7) returns '743'
 ```
 
 covert decimal to binary
@@ -41,7 +41,7 @@ covert decimal to binary
 function decimalToBinary(d) {
 	return d.toString(2);
 }
-// returns '1100100'
+// decimalToBinary(100) returns '1100100'
 ```
 
 ## [`Number.MAX_SAFE_INTEGER`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER)
