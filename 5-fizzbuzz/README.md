@@ -91,14 +91,14 @@
 
 1. using the loader this lets us access some useful utility functions like `__getString()`
 
-![instance utilities](../resources/__getString.png)
+   ![instance utilities](../resources/__getString.png)
 
-1.  you can now import the `__getString()` function with takes in a pointer in memory and returns the string
+1. you can now import the `__getString()` function with takes in a pointer in memory and returns the string
 
-    ```js
-    // index.html
-    const { fizzbuzz, __getString } = instance;
-    const str = __getString(fizzbuzz(3));
-    ```
+   ```js
+   // index.html
+   const { fizzbuzz, __getString } = instance;
+   const str = __getString(fizzbuzz(3));
+   ```
 
-    ![fizzbuzz](../resources/fizzbuzz.png)
+   ![fizzbuzz](../resources/fizzbuzz.png)
