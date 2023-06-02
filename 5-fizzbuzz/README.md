@@ -93,7 +93,7 @@
 
    ![instance utilities](../resources/__getString.png)
 
-1. you can now import the `__getString()` function with takes in a pointer in memory and returns the string
+1. you can now import the `__getString()` function which takes in a pointer in memory and returns the string
 
    ```js
    // index.html
