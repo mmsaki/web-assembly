@@ -9,4 +9,5 @@
 
 chrome has build in WebAssembly Debugging experiment setting for debuggin wasm files
 
-![Add experimental web assembly debugging](./resources/webassembly-expr.png)
+> **Note**: it may or may not work
+> ![Add experimental web assembly debugging](./resources/webassembly-expr.png)
