@@ -1,4 +1,4 @@
-# 3: imports
+# 3. error imports
 
 If we modify previous exercise `assembly/index.ts` to code below we get a `TypeError`
 

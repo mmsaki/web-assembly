@@ -1,4 +1,4 @@
-## defining imports
+## 4. logging function wasm
 
 assemblyscript has special imports build into its loader [see documentation](https://www.assemblyscript.org/concepts.html#special-imports)
 
