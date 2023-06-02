@@ -6,6 +6,7 @@
 1. [error and wasm](./3-error-wasm/)
 1. [console-log and wasm](./4-logging-wasm/)
 1. [fizzbuzz and wasm](./5-fizzbuzz/)
+1. [memory and wasm](./6-memory/)
 
 ## Additional debugging
 
