@@ -1,9 +1,10 @@
 # wasm
 
-1. [intro](./intro-wasm/)
+1. [intro](./0-intro-wasm/)
 1. [nodejs and wasm](./1-nodejs-wasm/)
 1. [browser and wasm](./2-browser-wasm/)
 1. [imports](./3-imports/)
+1. [defining imports (console.log function)](./4-defining-imports/)
 
 ## Additional debugging
 
