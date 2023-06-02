@@ -5,6 +5,7 @@
 1. [browser and wasm](./2-browser-wasm/)
 1. [error and wasm](./3-error-wasm/)
 1. [console-log and wasm](./4-logging-wasm/)
+1. [fizzbuzz and wasm](./5-fizzbuzz/)
 
 ## Additional debugging
 

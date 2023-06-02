@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/@assemblyscript/loader/umd/index.js"></script>
+		<script type="module">
+			import { WasmLoader } from './js/loader.js';
+			const WL = new WasmLoader();
+			WL.wasm('/build/release.wasm').then((instance) => {
+				const { minusone, fizzbuzz, __getString } = instance;
+				const str = __getString(fizzbuzz(15));
+				document.getElementById(
+					'loader'
+				).innerText = `${str} (using loader.js)`;
+			});
+		</script>
+	</head>
+	<body>
+		<div id="loader"></div>
+	</body>
+</html>
