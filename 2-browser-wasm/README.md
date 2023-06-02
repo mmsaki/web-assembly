@@ -8,9 +8,9 @@ All mordern browsers have the `WebAssembly` global object that acts as the prima
 - `WebAssembly.instantiateStreaming()` compile and instantiate wasm from a steamed source
 - `WebAssembly.validate()` checks if wasm code is valid
 
-## fetchin wasm
+## fetching wasm
 
-we're fetch wasm from our server so lets use `instantiate()` and `instantiateStreaming()` to make a utility class for fetching and compiling our wasm
+we're fetching wasm from our server so lets use `instantiate()` and `instantiateStreaming()` to make a utility class for fetching and compiling our wasm
 
 ```js
 // js/loader.js

@@ -34,7 +34,7 @@ constructor() {
 }
 ```
 
-1. then ass the import object to both methods
+1. then add the import object to both methods
 
 ```js
 // js/loader.js
