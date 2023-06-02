@@ -1,0 +1,4 @@
+{
+	"extends": "assemblyscript/std/assembly.json",
+	"include": ["../../4-defining-imports/assembly/**/*.ts"]
+}

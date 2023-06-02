@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script type="module">
+			import { WasmLoader } from './js/loader.js';
+			const WL = new WasmLoader();
+			WL.wasm('/build/release.wasm').then((instance) => {
+				const { minusone } = instance;
+				document.getElementById('loader').innerText = `${minusone(
+					44
+				)} (using loader.js)`;
+			});
+		</script>
+	</head>
+	<body>
+		<div id="loader"></div>
+	</body>
+</html>

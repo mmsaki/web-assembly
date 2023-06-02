@@ -11,3 +11,7 @@ chrome has build in WebAssembly Debugging experiment setting for debuggin wasm f
 
 > **Note**: it may or may not work
 > ![Add experimental web assembly debugging](./resources/webassembly-expr.png)
+
+## Resources
+
+Follow along with [this documentation](https://young.github.io/intro-to-web-assembly)

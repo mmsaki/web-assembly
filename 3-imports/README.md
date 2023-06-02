@@ -51,5 +51,4 @@ async wasmFallback(path, imports) {
   /* ... */
 
 }
-
 ```
