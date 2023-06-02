@@ -34,6 +34,7 @@
 1. in `loader.js` replace the `WebAssembly` method with loader
 
    ```js
+   // loader.js
    export class WasmLoader {
    	constructor() {
    		this._imports = {
