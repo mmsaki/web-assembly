@@ -7,6 +7,7 @@
 1. [console-log and wasm](./4-logging-wasm/)
 1. [fizzbuzz and wasm](./5-fizzbuzz/)
 1. [memory and wasm](./6-memory/)
+1. [speed and wasm](./7-speed-wasm/)
 
 ## Additional debugging
 
