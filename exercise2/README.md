@@ -1,4 +1,4 @@
-# 2: using web assembly in browser
+# 2: loading assembly script in browser
 
 All mordern browsers have the `WebAssembly` global object that acts as the primary API into Web Assembly with the following static methods:
 

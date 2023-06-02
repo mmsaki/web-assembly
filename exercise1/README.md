@@ -1,4 +1,4 @@
-# exercise 1
+# 1: loading assembly script in node
 
 ## intall
 
