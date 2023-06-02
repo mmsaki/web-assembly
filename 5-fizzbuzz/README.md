@@ -3,6 +3,7 @@
 1. the fizzbuzz function
 
    ```ts
+   // assembly/index.ts
    export function fizzbuzz(n: i32): String | null {
    	if (n % 15 === 0) {
    		return 'fizzbuzz';
